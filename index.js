@@ -22,7 +22,7 @@ function callback(data){
 			var e=e || event;
 			if(e.keyCode==38){
 				ts_i-=1;
-				if(ts_i==-1){
+				if(ts_i==-1 || ts_i==-2){
 					ts_i=ts.length-1;
 				}
 				active();
