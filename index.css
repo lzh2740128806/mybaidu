@@ -1,0 +1,61 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.logo{
+	margin: 0 auto 35px;
+	width: 25%;
+}
+.logo img{
+	width: 100%;
+}
+.form{
+	display: flex;
+	justify-content: center;
+	position: relative;
+	margin: 0 auto;
+	width: 50%;
+}
+#xiala{
+	position: absolute;
+	left: 0;
+	top: 50px;
+	width: 80%;
+}
+#xiala div{
+	padding: 5px 15px;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+}
+#xiala div:last-child{
+	border-bottom: 1px solid #ddd;
+}
+#wd{
+	display: block;
+	box-sizing: border-box;
+	padding: 0 15px;
+	width: 80%;
+	height: 50px;
+	outline: none;
+	border: 1.5px solid #3388FF;
+	border-right: none;
+	font-size: 22px;
+	font-weight: 300;
+}
+#btn{
+	display: block;
+	box-sizing: border-box;
+	width: 20%;
+	height: 50px;
+	background: #3388FF;
+	border: none;
+	font-size: 22px;
+	color: #fff;
+	transition: background .2s;
+}
+#btn:hover{
+	background: #2266cc;
+}
+.fo{
+	box-shadow: 0 0 5px #3388FF;
+}
